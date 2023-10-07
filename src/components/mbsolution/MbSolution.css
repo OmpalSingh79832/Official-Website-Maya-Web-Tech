@@ -1,0 +1,790 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.mbs-home-img {
+    background-image: url("../../assest/mobilesolution-homepage-img.webp");
+    width: 100vd;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+
+.mb-home-text {
+    justify-content: center;
+    color: white;
+    padding-top: 8vw;
+
+}
+
+.mb-home-text h3 {
+    font-size: 2.5vw;
+}
+
+.mb-home-text h2 {
+    margin-bottom: 2vw;
+    font-size: 35px;
+}
+
+.mb-home-text p {
+    font-size: 1.5vw;
+}
+
+.mb-home-text button {
+    height: 3.7rem;
+    width: 15rem;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 600;
+    border-radius: .5vw;
+    margin-top: 2vh;
+}
+
+.mb-home-text button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.overview-heading h2 {
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.overview-heading span {
+    font-weight: 700;
+}
+
+.button-homepage {
+    width: 9rem;
+    font-weight: 600;
+    color: white;
+    background: red;
+}
+
+.button-homepage:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+
+/* Responsive Home Page */
+
+@media screen and (max-width:760px) and (min-width:480px) {
+    .mb-home-text {
+        padding-top: 0vw !important;
+    }
+
+    .mb-home-text button {
+        height: 3.7rem;
+        width: 9rem;
+        font-size: 2.7vw;
+        margin-bottom: 16px;
+    }
+
+    .vh-100 {
+        height: 137vh !important;
+    }
+
+    .mbs-home-img {
+        height: 100%;
+    }
+
+    form {
+        width: 66%;
+    }
+}
+
+
+/* Vast Mobile App Development Services We Offer  */
+
+.services-mobile-app {
+    margin: 40px 40px 70px 40px;
+    height: 300px;
+    background-color: aliceblue;
+    padding-top: 50px;
+}
+
+.mobile-app-solution {
+    margin: 59px -18px 30px 34px;
+    ;
+}
+
+
+/* icon1 */
+
+
+
+.icon-mobile-app1 {
+    width: calc(12% - 4px);
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+
+}
+
+.icon-mobile-app1 img {
+    filter: brightness(0) invert(1);
+}
+
+.icon-mobile-app1 p {
+    margin-top: 20px;
+}
+
+.icon-mobile-app1:hover {
+    border: 2px solid skyblue;
+    transform: scaleY(1);
+}
+
+/* icon2 */
+
+
+.icon-mobile-app2 {
+    width: calc(12% - 4px);
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #14b93b;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-mobile-app2 img {
+    filter: brightness(0) invert(1);
+}
+
+.icon-mobile-app2 p {
+    margin-top: 20px;
+}
+
+.icon-mobile-app2:hover {
+    border: 2px solid skyblue;
+    transform: scaleY(1);
+}
+
+/* icon2 */
+
+
+.icon-mobile-app3 {
+    width: calc(12% - 4px);
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #0071da;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-mobile-app3 img {
+    filter: brightness(0) invert(1);
+}
+
+.icon-mobile-app3 p {
+    margin-top: 20px;
+}
+
+.icon-mobile-app3:hover {
+    border: 2px solid skyblue;
+    transform: scaleY(1);
+}
+
+/* icon3 */
+
+.icon-mobile-app4 {
+    width: calc(12% - 4px);
+    height: 180px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #102b92;
+    color: white;
+    font-weight: 600;
+}
+
+.icon-mobile-app4 img {
+    filter: brightness(0) invert(1);
+}
+
+.icon-mobile-app4 p {
+    margin-top: 20px;
+}
+
+.icon-mobile-app4:hover {
+    border: 2px solid skyblue;
+    transform: scaleY(1);
+}
+
+/* Responsive page */
+
+@media screen and (max-width:760px) and (min-width:480px) {
+
+    .mobile-app-solution {
+        margin: -32px -51px 17px 15px;
+    }
+
+    .icon-mobile-app1 {
+        width: calc(91% - 7px);
+        height: 135px;
+        margin-left: 25px;
+    }
+
+    .icon-mobile-app2 {
+        width: calc(91% - 7px);
+        height: 135px;
+        margin-left: 25px;
+    }
+
+    .icon-mobile-app3 {
+        width: calc(91% - 7px);
+        height: 135px;
+        margin-left: 25px;
+    }
+
+    .icon-mobile-app4 {
+        width: calc(91% - 7px);
+        height: 135px;
+        margin-left: 25px;
+    }
+}
+
+
+/* Vast Mobile App Development Services We Offer */
+
+.image-mas1 {
+    background-image: url("../../assest/mas@1img.webp");
+    /* width: 100%; */
+    height: 239px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 28px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.image-mas1:hover {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.image-mas1 img {
+    margin: 90px 0 0 120px;
+}
+
+.image-mas1 p {
+    color: white;
+    margin-left: 87px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.image-mas2 {
+    background-image: url("../../assest/mas@2img.jpg");
+    /* width: 100%; */
+    height: 239px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 28px;
+    border-radius: 15px;
+}
+
+.image-mas2:hover {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.image-mas2 img {
+    margin: 86px 0 0 154px;
+}
+
+.image-mas2 p {
+    color: white;
+    margin-left: 143px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.image-mas3 {
+    background-image: url("../../assest/mas@3img.webp");
+    /* width: 100%; */
+    height: 239px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.image-mas3:hover {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.image-mas3 img {
+    margin: 84px 0 0 143px;
+}
+
+.image-mas3 p {
+    color: white;
+    margin-left: 87px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Responsive page */
+
+@media screen and (max-width:760px) and (min-width:480px) {
+    .image-mas1 {
+        width: 85%;
+        height: 160px;
+        margin-bottom: 11px;
+    }
+
+    .p-5 {
+        margin: 457px -44px 78px 32px
+    }
+
+    .images-mobileappsol {
+        display: flex;
+        flex-direction: column;
+        margin-top: 444px;
+        margin-left: 40px;
+    }
+
+    .image-mas1 img {
+        margin: 28px -4px 2px 155px;
+    }
+
+    .image-mas1 p {
+        margin-left: 116px;
+    }
+
+    .image-mas2 {
+        width: 85%;
+        height: 160px;
+        margin-bottom: 11px;
+    }
+
+    .p-5 {
+        margin: 457px -44px 78px 32px
+    }
+
+    .image-mas3 img {
+        margin: 28px -4px 2px 155px;
+    }
+
+    .image-mas3 p {
+        margin-left: 140px;
+    }
+
+    .image-mas3 {
+        width: 85%;
+        height: 160px;
+        margin-bottom: 61px;
+    }
+
+    .p-5 {
+        margin: 457px -44px 78px 32px
+    }
+
+    .image-mas3 img {
+        margin: 28px -4px 2px 155px;
+    }
+
+    .image-mas3 p {
+        margin-left: 96px;
+        margin-top: 20px;
+    }
+
+    .service-mobileapp-solution {
+        padding-top: 30px !important;
+        padding-left: 114px !important;
+        height: 167px !important;
+    }
+
+    .service-mobileapp-solution button {
+        width: 122px !important;
+        height: 43px !important;
+        margin-top: px !important;
+        margin-left: 82px !important;
+        font-size: 14px !important;
+    }
+
+    .service-mobileapp-solution h3 {
+        font-size: 17px !important;
+    }
+
+    .industry-solution {
+        padding-top: 30px !important;
+        padding-left: 4px !important;
+        height: 167px !important;
+    }
+
+    .industry-solution span {
+        font-size: 13px !important;
+        line-height: 7px !important;
+        margin-bottom: 20px;
+    }
+
+    .industry-solution button {
+        width: 122px !important;
+        height: 43px !important;
+        margin-top: 10px !important;
+        margin-left: 62px !important;
+        font-size: 14px !important;
+    }
+
+    .industry-solution h3 {
+        font-size: 17px !important;
+    }
+
+}
+
+/* Take Your Business to Next Level With Our Mobile App Development Service */
+
+
+.service-mobileapp-solution {
+    background: black;
+    color: white;
+    padding-top: 110px;
+    padding-left: 193px;
+    height: 290px;
+}
+
+.service-mobileapp-solution h3 {
+    font-size: 25px;
+}
+
+.service-mobileapp-solution button {
+    border: none;
+    width: 225px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 300px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.service-mobileapp-solution button:hover {
+    background: white;
+    border: 2px solid red;
+    color: black;
+}
+
+
+
+
+/* Fully Customized Mobile App Development Services For Your Business */
+
+
+.fully-customized h3 {
+    margin: 40px 0 40px 120px;
+    font-weight: 700;
+}
+
+/* 1 Coloumn */
+
+.on-demand1 {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.on-demand1-img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.on-demand1-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.on-demand1 h4 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 34px;
+    position: absolute;
+    margin: 0;
+    padding: 100px 30px 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.on-demand1:hover h4 {
+    background: #03b5fe;
+    opacity: .7;
+    filter: grayscale(.1%);
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/* Didn’t find your industry solution? */
+
+
+
+
+
+.industry-solution {
+    background: #f2f2f2;
+    color: black;
+    padding-top: 90px;
+    padding-left: 73px;
+    height: 290px;
+}
+
+.industry-solution h3 {
+    font-size: 25px;
+    margin-left: 25%;
+    font-weight: 700;
+}
+
+.industry-solution span {
+    font-size: 24px;
+    /* margin-left: 2 */
+}
+
+.industry-solution button {
+    border: none;
+    width: 225px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 430px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.industry-solution button:hover {
+    background: white;
+    border: 2px solid red;
+    color: black;
+}
+
+
+
+/* An Award-Winning Mobile App Development Company */
+
+
+.bg-blue-winning {
+    background-image: url("../../assest/blue_bg.png");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.bg-blue-winning h3 {
+    color: white;
+    padding: 80px 0 5px 230px;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.bg-blue-winning h4 {
+    color: white;
+    margin-left: 170px;
+    padding-bottom: 25px;
+}
+
+
+.award-winning1 {
+    background-image: url("../../assest/firm@bg-img.webp");
+    background-size: 171px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 10px;
+    padding: 30px 25px;
+    margin: 60px 15px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.award-winning1 img {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 60%;
+}
+
+.award-winning1 span {
+    margin-top: 10px;
+}
+
+
+.app-futura img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 60%;
+}
+
+.app-futura span {
+    margin-top: 10px;
+}
+
+
+/* Our Quality Works Get Featured */
+
+.work-quality {
+    padding: 79px 0 40px 237px;
+}
+
+.work-quality h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.work-quality h5 {
+    font-size: 23px;
+}
+
+
+/* Our Quality Works Get Featured */
+
+.bussiness-app {
+    width: 370px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bussiness-app img {
+    width: 370px;
+    height: 240px;
+    object-fit: cover;
+    transition: .2s;
+
+    margin: 0 auto 0 auto;
+
+
+}
+
+.bussiness-app img:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+}
+
+.business-app-text {
+    background-color: #d4a44c;
+    color: white;
+    margin-left: -18px;
+    padding-top: 29px;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.business-app-text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.business-app-text h5 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.63;
+    color: #fff;
+}
+
+
+.nyc-details {
+    width: 406px;
+    height: 240px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.nyc-details img {
+    width: 365px;
+    transition: 0.5s all ease-in-out;
+    margin-left: 32px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.nyc-details img:hover {
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: 0.5s all ease-in;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+
+
+
+.digital-nyc-text {
+    margin-left: 41px;
+    padding-left: 20px;
+    width: 362px;
+    background-color: #19325f;
+}
+
+
+.digital-nyc-text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 40px 0 10px 0;
+}
+
+.digital-nyc-text h5 {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+
+}
+
+.digital-nyc-text span {
+    font-weight: 700;
+}
